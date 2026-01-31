@@ -25,7 +25,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/MK-vet/strepsuis-genphennet",
+      "identifier": "https://github.com/MK-vet/strepsuis_genphennet",
       "relation": "isSupplementTo",
       "resource_type": "software"
     }
