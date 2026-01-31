@@ -1,0 +1,231 @@
+2026-01-12 05:40:47,587 | INFO | ================================================================================
+2026-01-12 05:40:47,588 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:40:47,588 | INFO | ================================================================================
+2026-01-12 05:40:47,588 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:40:47,588 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:40:47,588 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:42:10,219 | INFO | ================================================================================
+2026-01-12 05:42:10,219 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:42:10,219 | INFO | ================================================================================
+2026-01-12 05:42:10,219 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:42:10,219 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:42:10,219 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:44:32,554 | INFO | ================================================================================
+2026-01-12 05:44:32,554 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:44:32,554 | INFO | ================================================================================
+2026-01-12 05:44:32,555 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:44:32,555 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:44:32,555 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:47:18,709 | INFO | ================================================================================
+2026-01-12 05:47:18,709 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:47:18,709 | INFO | ================================================================================
+2026-01-12 05:47:18,709 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:47:18,709 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:47:18,710 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:50:49,196 | INFO | ================================================================================
+2026-01-12 05:50:49,196 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:50:49,196 | INFO | ================================================================================
+2026-01-12 05:50:49,196 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:50:49,196 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:50:49,196 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:52:51,400 | INFO | ================================================================================
+2026-01-12 05:52:51,400 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:52:51,400 | INFO | ================================================================================
+2026-01-12 05:52:51,400 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:52:51,400 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:52:51,400 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 05:59:16,047 | INFO | ================================================================================
+2026-01-12 05:59:16,047 | INFO | Starting Network Analysis Pipeline
+2026-01-12 05:59:16,047 | INFO | ================================================================================
+2026-01-12 05:59:16,047 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 05:59:16,047 | INFO | STEP 1: File Upload and Validation
+2026-01-12 05:59:16,047 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-12 06:23:35,511 | INFO | ================================================================================
+2026-01-12 06:23:35,511 | INFO | Starting Network Analysis Pipeline
+2026-01-12 06:23:35,511 | INFO | ================================================================================
+2026-01-12 06:23:35,511 | INFO | Random seed set to 2800 for reproducibility
+2026-01-12 06:23:35,511 | INFO | STEP 1: File Upload and Validation
+2026-01-12 06:23:35,511 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 06:47:26,730 | INFO | ================================================================================
+2026-01-18 06:47:26,733 | INFO | Starting Network Analysis Pipeline
+2026-01-18 06:47:26,733 | INFO | ================================================================================
+2026-01-18 06:47:26,733 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 06:47:26,733 | INFO | STEP 1: File Upload and Validation
+2026-01-18 06:47:26,733 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 16:04:01,537 | INFO | ================================================================================
+2026-01-18 16:04:01,538 | INFO | Starting Network Analysis Pipeline
+2026-01-18 16:04:01,538 | INFO | ================================================================================
+2026-01-18 16:04:01,538 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 16:04:01,538 | INFO | STEP 1: File Upload and Validation
+2026-01-18 16:04:01,538 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 16:08:10,916 | INFO | ================================================================================
+2026-01-18 16:08:10,916 | INFO | Starting Network Analysis Pipeline
+2026-01-18 16:08:10,917 | INFO | ================================================================================
+2026-01-18 16:08:10,917 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 16:08:10,917 | INFO | STEP 1: File Upload and Validation
+2026-01-18 16:08:10,917 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 22:47:30,255 | INFO | ================================================================================
+2026-01-18 22:47:30,255 | INFO | Starting Network Analysis Pipeline
+2026-01-18 22:47:30,256 | INFO | ================================================================================
+2026-01-18 22:47:30,256 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 22:47:30,256 | INFO | STEP 1: File Upload and Validation
+2026-01-18 22:47:30,256 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 22:51:59,489 | INFO | ================================================================================
+2026-01-18 22:51:59,489 | INFO | Starting Network Analysis Pipeline
+2026-01-18 22:51:59,489 | INFO | ================================================================================
+2026-01-18 22:51:59,489 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 22:51:59,489 | INFO | STEP 1: File Upload and Validation
+2026-01-18 22:51:59,489 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-18 22:59:53,773 | INFO | ================================================================================
+2026-01-18 22:59:53,773 | INFO | Starting Network Analysis Pipeline
+2026-01-18 22:59:53,773 | INFO | ================================================================================
+2026-01-18 22:59:53,773 | INFO | Random seed set to 2800 for reproducibility
+2026-01-18 22:59:53,773 | INFO | STEP 1: File Upload and Validation
+2026-01-18 22:59:53,774 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-19 04:16:00,801 | INFO | ================================================================================
+2026-01-19 04:16:00,802 | INFO | Starting Network Analysis Pipeline
+2026-01-19 04:16:00,802 | INFO | ================================================================================
+2026-01-19 04:16:00,802 | INFO | Random seed set to 2800 for reproducibility
+2026-01-19 04:16:00,802 | INFO | STEP 1: File Upload and Validation
+2026-01-19 04:16:00,802 | WARNING | Optional files not found: MGE.csv, MIC.csv, MLST.csv, Plasmid.csv, Serotype.csv, Virulence.csv, AMR_genes.csv
+2026-01-19 22:04:37,771 | INFO | ================================================================================
+2026-01-19 22:04:37,771 | INFO | Starting Network Analysis Pipeline
+2026-01-19 22:04:37,771 | INFO | ================================================================================
+2026-01-19 22:04:37,771 | INFO | Random seed set to 2800 for reproducibility
+2026-01-19 22:04:37,771 | INFO | STEP 1: File Upload and Validation
+2026-01-19 22:04:37,771 | INFO | All required files found successfully
+2026-01-19 22:04:37,771 | INFO | File mapping: MGE.csv -> MGE.csv
+2026-01-19 22:04:37,771 | INFO | File mapping: MIC.csv -> MIC.csv
+2026-01-19 22:04:37,771 | INFO | File mapping: MLST.csv -> MLST.csv
+2026-01-19 22:04:37,772 | INFO | File mapping: Plasmid.csv -> Plasmid.csv
+2026-01-19 22:04:37,772 | INFO | File mapping: Serotype.csv -> Serotype.csv
+2026-01-19 22:04:37,772 | INFO | File mapping: Virulence.csv -> Virulence.csv
+2026-01-19 22:04:37,772 | INFO | File mapping: AMR_genes.csv -> AMR_genes.csv
+2026-01-19 22:04:37,772 | INFO | STEP 2: Loading data from CSV files
+2026-01-19 22:04:37,774 | INFO | Loaded MGE.csv: shape=(70, 2)
+2026-01-19 22:04:37,776 | INFO | Loaded MIC.csv: shape=(91, 14)
+2026-01-19 22:04:37,776 | INFO | Loaded MLST.csv: shape=(91, 2)
+2026-01-19 22:04:37,777 | INFO | Loaded Plasmid.csv: shape=(25, 2)
+2026-01-19 22:04:37,777 | INFO | Loaded Serotype.csv: shape=(91, 2)
+2026-01-19 22:04:37,779 | INFO | Loaded Virulence.csv: shape=(91, 107)
+2026-01-19 22:04:37,780 | INFO | Loaded AMR_genes.csv: shape=(91, 22)
+2026-01-19 22:04:37,780 | INFO | STEP 3: Validating data structure
+2026-01-19 22:04:37,780 | INFO | All files contain required 'Strain_ID' column
+2026-01-19 22:04:37,780 | INFO | STEP 4: Generating feature summary statistics
+2026-01-19 22:04:37,780 | INFO | Category MGE: 4 features
+2026-01-19 22:04:37,781 | INFO | Category MIC: 13 features
+2026-01-19 22:04:37,781 | INFO | Category MLST: 29 features
+2026-01-19 22:04:37,781 | INFO | Category Plasmid: 5 features
+2026-01-19 22:04:37,782 | INFO | Category Serotype: 16 features
+2026-01-19 22:04:37,782 | INFO | Category Virulence: 106 features
+2026-01-19 22:04:37,782 | INFO | Category AMR_genes: 21 features
+2026-01-19 22:04:37,782 | INFO | STEP 5: Expanding categorical features
+2026-01-19 22:04:37,783 | INFO | Expanded MGE: 4 binary columns
+2026-01-19 22:04:37,784 | INFO | Expanded MLST: 30 binary columns
+2026-01-19 22:04:37,785 | INFO | Expanded Plasmid: 5 binary columns
+2026-01-19 22:04:37,786 | INFO | Expanded Serotype: 16 binary columns
+2026-01-19 22:04:37,786 | INFO | STEP 6: Merging all data sources
+2026-01-19 22:04:37,790 | INFO | Merged dataset: 195 total features across 108 strains
+2026-01-19 22:04:37,790 | INFO | Merged dataset: 195 total features across 108 strains
+2026-01-19 22:04:37,790 | INFO | STEP 7: Building feature-category mapping
+2026-01-19 22:04:37,790 | INFO | Feature-category mapping complete: 195 features mapped
+2026-01-19 22:04:37,790 | INFO | STEP 8: Detecting mutually exclusive patterns
+2026-01-19 22:04:38,973 | INFO | Found 1000 mutually exclusive pairs
+2026-01-19 22:04:38,973 | INFO | Found 1000 mutually exclusive triplets
+2026-01-19 22:04:38,973 | INFO | STEP 9: Performing pairwise Chi-square/Fisher exact tests
+2026-01-19 22:04:38,974 | INFO | Testing 18915 feature pairs (this may take several minutes...)
+2026-01-19 22:05:17,432 | INFO | Completed 10000/18915 tests (52.9%)
+2026-01-19 22:05:42,265 | INFO | Chi-square tests complete: 581 significant associations (FDR<0.05)
+2026-01-19 22:05:42,265 | INFO | STEP 10: Computing information theory metrics
+2026-01-19 22:05:42,265 | INFO | STEP 10: Computing information theory metrics
+2026-01-19 22:05:42,266 | INFO | Analyzing top 50 features with highest variance
+2026-01-19 22:05:47,843 | INFO | Completed 500/2450 information theory calculations (20.4%)
+2026-01-19 22:05:53,574 | INFO | Completed 1000/2450 information theory calculations (40.8%)
+2026-01-19 22:05:59,150 | INFO | Completed 1500/2450 information theory calculations (61.2%)
+2026-01-19 22:06:04,742 | INFO | Completed 2000/2450 information theory calculations (81.6%)
+2026-01-19 22:06:09,700 | INFO | Information theory complete: 8 significant entropy associations
+2026-01-19 22:06:09,700 | INFO | Cramér's V complete: 578 significant associations
+2026-01-19 22:06:09,700 | INFO | STEP 11: Generating section summaries
+2026-01-19 22:06:09,700 | INFO | STEP 11: Generating section summaries
+2026-01-19 22:06:10,056 | INFO | STEP 12: Constructing feature association network
+2026-01-19 22:06:10,056 | INFO | Adaptive phi threshold (90th percentile): 0.095
+2026-01-19 22:06:10,066 | INFO | Network created: 128 nodes, 581 edges
+2026-01-19 22:06:10,066 | INFO | STEP 13: Performing community detection and centrality analysis
+2026-01-19 22:06:10,070 | INFO | Detected 14 communities using Louvain algorithm
+2026-01-19 22:06:10,100 | INFO | Calculated degree, betweenness, closeness, and eigenvector centrality
+2026-01-19 22:06:10,107 | INFO | Identified 39 hub features across 14 clusters
+2026-01-19 22:06:10,107 | INFO | STEP 13.5: Performing causal discovery analysis
+2026-01-19 22:06:10,121 | WARNING | No significant initial associations found
+2026-01-19 22:06:10,121 | WARNING | Causal discovery found no causal edges
+2026-01-19 22:06:10,331 | INFO | Building prediction models for 13 phenotypes...
+2026-01-19 22:06:10,332 | WARNING | Skipping Amoxicillin_Clavulanic_acid: not binary (values: [0])
+2026-01-19 22:06:10,332 | WARNING | Skipping Ampicillin: insufficient samples per class
+2026-01-19 22:06:10,332 | WARNING | Skipping Ceftiofur: insufficient samples per class
+2026-01-19 22:06:10,416 | WARNING | Skipping Enrofloxacin: insufficient samples per class
+2026-01-19 22:06:10,416 | WARNING | Skipping Florfenicol: insufficient samples per class
+2026-01-19 22:06:10,417 | WARNING | Skipping Gentamicin: insufficient samples per class
+2026-01-19 22:06:10,503 | WARNING | Skipping Penicillin: insufficient samples per class
+2026-01-19 22:06:10,685 | WARNING | Skipping Trimethoprim_Sulphamethoxazole: insufficient samples per class
+2026-01-19 22:06:10,770 | INFO | Prediction report saved to: C:\Users\ABC\Documents\GitHub\MKrep\separated_repos\strepsuis-genphennet\analysis_results_91strains\predictive_modeling_report.txt
+2026-01-19 22:06:10,772 | INFO | Predictive modeling completed: 5 phenotypes analyzed
+2026-01-19 22:06:10,772 | INFO | STEP 14: Generating 3D network visualization
+2026-01-19 22:06:10,922 | INFO | 3D network visualization saved to network_visualization.html
+2026-01-19 22:06:10,937 | INFO | STEP 15: Generating interactive HTML report
+2026-01-19 22:06:10,937 | INFO | STEP 15: Generating interactive HTML report
+2026-01-19 22:06:11,702 | INFO | HTML report saved to 'report.html'
+2026-01-19 22:06:11,702 | INFO | STEP 16: Generating comprehensive Excel report with PNG charts
+2026-01-19 22:06:11,733 | INFO | Chromium init'ed with kwargs {}
+2026-01-19 22:06:11,749 | INFO | Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-01-19 22:06:11,751 | INFO | Temp directory created: C:\Users\ABC\AppData\Local\Temp\tmpg1sj4fc9.
+2026-01-19 22:06:11,752 | INFO | Opening browser.
+2026-01-19 22:06:11,752 | INFO | Temp directory created: C:\Users\ABC\AppData\Local\Temp\tmp58wdtkuc.
+2026-01-19 22:06:11,752 | INFO | Temporary directory at: C:\Users\ABC\AppData\Local\Temp\tmp58wdtkuc
+2026-01-19 22:06:11,988 | INFO | Conforming 1 to file:///C:/Users/ABC/AppData/Local/Temp/tmpg1sj4fc9/index.html
+2026-01-19 22:06:11,988 | INFO | Waiting on all navigates
+2026-01-19 22:06:12,698 | INFO | All navigates done, putting them all in queue.
+2026-01-19 22:06:12,699 | INFO | Getting tab from queue (has 1)
+2026-01-19 22:06:12,699 | INFO | Got 9EE7
+2026-01-19 22:06:12,699 | INFO | Processing 3D_Network_with_Cluster_Labels.png
+2026-01-19 22:06:12,699 | INFO | Sending big command for 3D_Network_with_Cluster_Labels.png.
+2026-01-19 22:06:17,054 | INFO | Sent big command for 3D_Network_with_Cluster_Labels.png.
+2026-01-19 22:06:17,061 | INFO | Reloading tab 9EE7 before return.
+2026-01-19 22:06:17,691 | INFO | Putting tab 9EE7 back (queue size: 0).
+2026-01-19 22:06:17,691 | INFO | Waiting for all cleanups to finish.
+2026-01-19 22:06:17,691 | INFO | Exiting Kaleido
+2026-01-19 22:06:17,691 | INFO | Closing browser.
+2026-01-19 22:06:17,711 | INFO | Closing browser.
+2026-01-19 22:06:17,712 | INFO | TemporaryDirectory.cleanup() worked.
+2026-01-19 22:06:17,712 | INFO | shutil.rmtree worked.
+2026-01-19 22:06:17,712 | INFO | Cancelling tasks.
+2026-01-19 22:06:17,712 | INFO | Exiting Kaleido/Choreo
+2026-01-19 22:06:17,856 | INFO | TemporaryDirectory.cleanup() worked.
+2026-01-19 22:06:17,856 | INFO | shutil.rmtree worked.
+2026-01-19 22:06:17,856 | INFO | TemporaryDirectory.cleanup() worked.
+2026-01-19 22:06:17,857 | INFO | shutil.rmtree worked.
+2026-01-19 22:06:17,857 | INFO | Cancelling tasks.
+2026-01-19 22:06:17,857 | INFO | Exiting Kaleido/Choreo
+2026-01-19 22:06:18,397 | INFO | TemporaryDirectory.cleanup() worked.
+2026-01-19 22:06:18,398 | INFO | shutil.rmtree worked.
+2026-01-19 22:06:19,962 | INFO | Excel report saved to: C:\Users\ABC\Documents\GitHub\MKrep\separated_repos\strepsuis-genphennet\analysis_results_91strains\Network_Analysis_Report_20260119_220617.xlsx
+2026-01-19 22:06:19,962 | INFO | STEP 17: Report generation complete
+2026-01-19 22:06:19,962 | INFO | ================================================================================
+2026-01-19 22:06:19,962 | INFO | ANALYSIS COMPLETE
+2026-01-19 22:06:19,962 | INFO | ================================================================================
+2026-01-19 22:06:19,963 | INFO | Total execution time: 102.19 seconds (1.70 minutes)
+2026-01-19 22:06:19,963 | INFO | Total features analyzed: 195
+2026-01-19 22:06:19,963 | INFO | Total strains: 108
+2026-01-19 22:06:19,963 | INFO | Chi-square tests performed: 18915
+2026-01-19 22:06:19,964 | INFO | Significant associations (FDR<0.05): 581
+2026-01-19 22:06:19,964 | INFO | Network nodes: 128
+2026-01-19 22:06:19,965 | INFO | Network edges: 581
+2026-01-19 22:06:19,965 | INFO | Network clusters: 14
+2026-01-19 22:06:19,965 | INFO | Hub features identified: 39
+2026-01-19 22:06:19,965 | INFO | Mutually exclusive pairs: 1000
+2026-01-19 22:06:19,965 | INFO | Mutually exclusive triplets: 1000
+2026-01-19 22:06:19,965 | INFO | ================================================================================
+2026-01-19 22:06:19,965 | INFO | Output files generated:
+2026-01-19 22:06:19,965 | INFO |   - report.html
+2026-01-19 22:06:19,965 | INFO |   - C:\Users\ABC\Documents\GitHub\MKrep\separated_repos\strepsuis-genphennet\analysis_results_91strains\Network_Analysis_Report_20260119_220617.xlsx
+2026-01-19 22:06:19,965 | INFO |   - output/png_charts/ (PNG visualizations)
+2026-01-19 22:06:19,965 | INFO |   - output/network_analysis_log.txt (execution log)
+2026-01-19 22:06:19,965 | INFO | ================================================================================

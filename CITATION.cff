@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+type: software
+title: "StrepSuis-GenPhenNet: Network-Based Integration of Genome-Phenome Data"
+version: 1.0.0
+date-released: 2025-01-15
+doi: "10.5281/zenodo.XXXXXXX"
+abstract: >-
+  StrepSuis-GenPhenNet is a Python package for network-based integration
+  of genomic and phenotypic data in Streptococcus suis and other bacterial species.
+  It implements chi-square/Fisher exact tests, FDR correction, information theory
+  metrics, and network visualization for genome-phenome associations.
+keywords:
+  - antimicrobial resistance
+  - bioinformatics
+  - genomics
+  - streptococcus suis
+  - network analysis
+  - genotype-phenotype association
+  - statistical analysis
+license: MIT
+authors:
+  - family-names: "MK-vet"
+    affiliation: "StrepSuis Suite Development Team"
+repository-code: "https://github.com/MK-vet/strepsuis-genphennet"
+url: "https://github.com/MK-vet/strepsuis-genphennet"
+preferred-citation:
+  type: software
+  title: "StrepSuis-GenPhenNet: Network-Based Integration of Genome-Phenome Data"
+  authors:
+    - family-names: "MK-vet"
+      affiliation: "StrepSuis Suite Development Team"
+  version: 1.0.0
+  date-released: 2025-01-15
+  repository-code: "https://github.com/MK-vet/strepsuis-genphennet"
+references:
+  - type: article
+    title: "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+    authors:
+      - family-names: "Benjamini"
+        given-names: "Yoav"
+      - family-names: "Hochberg"
+        given-names: "Yosef"
+    journal: "Journal of the Royal Statistical Society: Series B"
+    volume: 57
+    issue: 1
+    pages: "289-300"
+    year: 1995
+  - type: article
+    title: "Fast unfolding of communities in large networks"
+    authors:
+      - family-names: "Blondel"
+        given-names: "Vincent D."
+      - family-names: "Guillaume"
+        given-names: "Jean-Loup"
+      - family-names: "Lambiotte"
+        given-names: "Renaud"
+      - family-names: "Lefebvre"
+        given-names: "Etienne"
+    journal: "Journal of Statistical Mechanics: Theory and Experiment"
+    volume: 2008
+    issue: 10
+    pages: "P10008"
+    year: 2008

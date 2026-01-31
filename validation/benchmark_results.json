@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-01-31T10:30:00.455202",
+  "results": [
+    {
+      "operation": "Chi-Square Testing",
+      "n_samples": 50,
+      "n_features": 20,
+      "time_seconds": 0.09639811515808105,
+      "memory_mb": null,
+      "throughput": 518.6823406039231
+    },
+    {
+      "operation": "Chi-Square Testing",
+      "n_samples": 100,
+      "n_features": 30,
+      "time_seconds": 0.15594959259033203,
+      "memory_mb": null,
+      "throughput": 641.2328390154411
+    },
+    {
+      "operation": "Chi-Square Testing",
+      "n_samples": 200,
+      "n_features": 40,
+      "time_seconds": 0.18576884269714355,
+      "memory_mb": null,
+      "throughput": 1076.606803897989
+    },
+    {
+      "operation": "FDR Correction",
+      "n_samples": 100,
+      "n_features": 1,
+      "time_seconds": 0.0001220703125,
+      "memory_mb": null,
+      "throughput": 819200.0
+    },
+    {
+      "operation": "FDR Correction",
+      "n_samples": 500,
+      "n_features": 1,
+      "time_seconds": 0.00012826919555664062,
+      "memory_mb": null,
+      "throughput": 3898052.0446096654
+    },
+    {
+      "operation": "FDR Correction",
+      "n_samples": 1000,
+      "n_features": 1,
+      "time_seconds": 0.00014209747314453125,
+      "memory_mb": null,
+      "throughput": 7037422.818791946
+    },
+    {
+      "operation": "Network Construction",
+      "n_samples": 20,
+      "n_features": 20,
+      "time_seconds": 0.0004725456237792969,
+      "memory_mb": null,
+      "throughput": 42323.955600403635
+    },
+    {
+      "operation": "Network Construction",
+      "n_samples": 50,
+      "n_features": 50,
+      "time_seconds": 0.0011744499206542969,
+      "memory_mb": null,
+      "throughput": 42573.12220868859
+    },
+    {
+      "operation": "Network Construction",
+      "n_samples": 100,
+      "n_features": 100,
+      "time_seconds": 0.004578590393066406,
+      "memory_mb": null,
+      "throughput": 21840.78317017288
+    },
+    {
+      "operation": "Centrality Metrics",
+      "n_samples": 20,
+      "n_features": 20,
+      "time_seconds": 0.0015916824340820312,
+      "memory_mb": null,
+      "throughput": 12565.32055122828
+    },
+    {
+      "operation": "Centrality Metrics",
+      "n_samples": 50,
+      "n_features": 50,
+      "time_seconds": 0.009351253509521484,
+      "memory_mb": null,
+      "throughput": 5346.8767528427925
+    },
+    {
+      "operation": "Centrality Metrics",
+      "n_samples": 100,
+      "n_features": 100,
+      "time_seconds": 0.0314638614654541,
+      "memory_mb": null,
+      "throughput": 3178.249437367867
+    },
+    {
+      "operation": "Community Detection",
+      "n_samples": 20,
+      "n_features": 20,
+      "time_seconds": 0.0005176067352294922,
+      "memory_mb": null,
+      "throughput": 38639.37356057116
+    },
+    {
+      "operation": "Community Detection",
+      "n_samples": 50,
+      "n_features": 50,
+      "time_seconds": 0.002223968505859375,
+      "memory_mb": null,
+      "throughput": 22482.332761578044
+    },
+    {
+      "operation": "Community Detection",
+      "n_samples": 100,
+      "n_features": 100,
+      "time_seconds": 0.005573272705078125,
+      "memory_mb": null,
+      "throughput": 17942.77891854894
+    },
+    {
+      "operation": "Logistic Regression CV",
+      "n_samples": 50,
+      "n_features": 10,
+      "time_seconds": 0.008680582046508789,
+      "memory_mb": null,
+      "throughput": 5759.982421928644
+    },
+    {
+      "operation": "Logistic Regression CV",
+      "n_samples": 100,
+      "n_features": 20,
+      "time_seconds": 0.009523391723632812,
+      "memory_mb": null,
+      "throughput": 10500.460644902863
+    },
+    {
+      "operation": "Logistic Regression CV",
+      "n_samples": 200,
+      "n_features": 30,
+      "time_seconds": 0.009089469909667969,
+      "memory_mb": null,
+      "throughput": 22003.48337005561
+    },
+    {
+      "operation": "Mutual Information",
+      "n_samples": 50,
+      "n_features": 20,
+      "time_seconds": 0.009061336517333984,
+      "memory_mb": null,
+      "throughput": 5517.949797400411
+    },
+    {
+      "operation": "Mutual Information",
+      "n_samples": 100,
+      "n_features": 30,
+      "time_seconds": 0.012494564056396484,
+      "memory_mb": null,
+      "throughput": 8003.4805174979965
+    },
+    {
+      "operation": "Mutual Information",
+      "n_samples": 200,
+      "n_features": 40,
+      "time_seconds": 0.01728534698486328,
+      "memory_mb": null,
+      "throughput": 11570.493793103447
+    },
+    {
+      "operation": "Full Pipeline",
+      "n_samples": 50,
+      "n_features": 20,
+      "time_seconds": 0.03695988655090332,
+      "memory_mb": null,
+      "throughput": 1352.8180053025073
+    },
+    {
+      "operation": "Full Pipeline",
+      "n_samples": 100,
+      "n_features": 20,
+      "time_seconds": 0.03520393371582031,
+      "memory_mb": null,
+      "throughput": 2840.591645446172
+    }
+  ]
+}

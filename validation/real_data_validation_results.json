@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-01-31T10:30:00.450938",
+  "total_tests": 8,
+  "passed": 8,
+  "coverage": 100.0,
+  "results": [
+    {
+      "test": "Strain Count",
+      "expected": "\u226550 strains",
+      "actual": "91 strains",
+      "passed": true,
+      "details": "Dataset should have sufficient sample size",
+      "category": "data_integrity"
+    },
+    {
+      "test": "Association Network Construction",
+      "expected": "Network built",
+      "actual": "1 significant edges",
+      "passed": true,
+      "details": "Chi-square based network",
+      "category": "network"
+    },
+    {
+      "test": "Network Density",
+      "expected": "[0, 1]",
+      "actual": "0.222",
+      "passed": true,
+      "details": "10/45 edges",
+      "category": "network"
+    },
+    {
+      "test": "Degree Centrality",
+      "expected": "Valid degrees",
+      "actual": "Hub: ant(6)-Ia (degree=6)",
+      "passed": true,
+      "details": "Degree centrality calculation",
+      "category": "network"
+    },
+    {
+      "test": "Community Detection",
+      "expected": "\u22651 community",
+      "actual": "7 communities",
+      "passed": true,
+      "details": "Hierarchical clustering",
+      "category": "network"
+    },
+    {
+      "test": "Fisher's Exact Test",
+      "expected": "Valid OR and p-value",
+      "actual": "OR=1.00, p=1.0000",
+      "passed": true,
+      "details": "Testing SAT-4 vs  LDH",
+      "category": "statistical"
+    },
+    {
+      "test": "FDR Correction",
+      "expected": "Correction applied",
+      "actual": "0/20 significant",
+      "passed": true,
+      "details": "Benjamini-Hochberg FDR",
+      "category": "statistical"
+    },
+    {
+      "test": "Mutual Information",
+      "expected": "MI \u2265 0",
+      "actual": "MI = 0.0000",
+      "passed": true,
+      "details": "SAT-4 vs  LDH",
+      "category": "information_theory"
+    }
+  ],
+  "biological_validations": [
+    {
+      "name": "Genotype-Phenotype Network",
+      "description": "Network of significant associations between AMR genes and resistance phenotypes",
+      "result": "1 significant edges (p < 0.05)",
+      "interpretation": "Dense networks suggest strong genotype-phenotype relationships. Sparse networks may indicate complex resistance mechanisms."
+    },
+    {
+      "name": "Network Density",
+      "description": "Proportion of possible edges that are significant",
+      "result": "Density: 0.222 (10 edges)",
+      "interpretation": "High density (>0.3) suggests extensive gene co-selection. Low density indicates independent evolution."
+    },
+    {
+      "name": "Hub Gene Identification",
+      "description": "Gene with most significant associations (highest degree)",
+      "result": "Hub gene: ant(6)-Ia with 6 connections",
+      "interpretation": "Hub genes may be key drivers of resistance phenotypes or located on mobile genetic elements."
+    },
+    {
+      "name": "Gene Communities",
+      "description": "Groups of co-occurring genes detected by hierarchical clustering",
+      "result": "7 gene communities identified",
+      "interpretation": "Communities may represent resistance islands, plasmids, or functionally related gene clusters."
+    },
+    {
+      "name": "AMR-Virulence Odds Ratio",
+      "description": "Odds ratio from Fisher's exact test",
+      "result": "OR=1.00, p=1.0000",
+      "interpretation": "OR>1 suggests positive association. OR<1 suggests negative association."
+    },
+    {
+      "name": "Multiple Testing Correction",
+      "description": "FDR-corrected significant associations",
+      "result": "0 associations significant after FDR correction",
+      "interpretation": "FDR correction reduces false positives while maintaining statistical power."
+    },
+    {
+      "name": "Mutual Information",
+      "description": "Information shared between AMR gene and virulence factor",
+      "result": "MI = 0.0000",
+      "interpretation": "Higher MI indicates stronger dependency. MI=0 indicates independence."
+    }
+  ]
+}

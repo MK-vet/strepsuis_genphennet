@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-01-31T10:30:00.457258",
+  "total_tests": 17,
+  "passed": 17,
+  "coverage": 100.0,
+  "results": [
+    {
+      "test": "Chi-Square vs scipy",
+      "expected": "chi2>0, 0\u2264p\u22641",
+      "actual": "chi2=16.67, p=0.0000",
+      "passed": true,
+      "details": "Should produce valid chi-square"
+    },
+    {
+      "test": "Fisher's Exact vs scipy",
+      "expected": "OR>0, 0\u2264p\u22641",
+      "actual": "OR=6.00, p=0.5238",
+      "passed": true,
+      "details": "Should produce valid Fisher's exact"
+    },
+    {
+      "test": "Phi Perfect Positive",
+      "expected": "1.0",
+      "actual": "1.0000",
+      "passed": true,
+      "details": "Perfect positive association"
+    },
+    {
+      "test": "Phi No Association",
+      "expected": "~0.0",
+      "actual": "0.0000",
+      "passed": true,
+      "details": "Independent variables"
+    },
+    {
+      "test": "FDR vs statsmodels",
+      "expected": "reject>0",
+      "actual": "reject=2",
+      "passed": true,
+      "details": "FDR correction should work"
+    },
+    {
+      "test": "FDR Monotonicity",
+      "expected": "Monotonically non-decreasing",
+      "actual": "Monotonic",
+      "passed": true,
+      "details": "Corrected p-values should be monotonic"
+    },
+    {
+      "test": "FDR Control",
+      "expected": "\u22645.0%",
+      "actual": "0.0%",
+      "passed": true,
+      "details": "FDR should be controlled"
+    },
+    {
+      "test": "Degree Centrality",
+      "expected": "B > A",
+      "actual": "B=1.00, A=0.33",
+      "passed": true,
+      "details": "Hub node should have highest centrality"
+    },
+    {
+      "test": "Betweenness Centrality",
+      "expected": "C \u2265 A",
+      "actual": "C=0.67, A=0.00",
+      "passed": true,
+      "details": "Bridge node should have high betweenness"
+    },
+    {
+      "test": "Community Detection",
+      "expected": "\u22652 communities",
+      "actual": "2 communities",
+      "passed": true,
+      "details": "Should detect planted communities"
+    },
+    {
+      "test": "Conditional Probability",
+      "expected": "P(B|A) > P(B|\u00acA)",
+      "actual": "P(B|A)=0.82 > P(B|\u00acA)=0.21",
+      "passed": true,
+      "details": "Causal relationship detected"
+    },
+    {
+      "test": "Mutual Information",
+      "expected": "MI(A,B) > MI(A,C)",
+      "actual": "MI(A,B)=0.200 > MI(A,C)=0.002",
+      "passed": true,
+      "details": "Correlated variables have higher MI"
+    },
+    {
+      "test": "Cross-Validation",
+      "expected": "Accuracy > 0.5",
+      "actual": "Accuracy = 0.820",
+      "passed": true,
+      "details": "Should achieve better than random"
+    },
+    {
+      "test": "AUC Calculation",
+      "expected": "AUC = 1.0 for perfect",
+      "actual": "AUC = 1.000",
+      "passed": true,
+      "details": "Perfect predictions should have AUC=1"
+    },
+    {
+      "test": "Bootstrap Coverage",
+      "expected": "~95%",
+      "actual": "96.0%",
+      "passed": true,
+      "details": "CI should contain true value ~95%"
+    },
+    {
+      "test": "Triangle Counting",
+      "expected": "2 triangles",
+      "actual": "2 triangles",
+      "passed": true,
+      "details": "Should count triangles correctly"
+    },
+    {
+      "test": "Clustering Coefficient",
+      "expected": "CC = 1.0 for complete graph",
+      "actual": "CC = 1.000",
+      "passed": true,
+      "details": "Complete graph should have CC=1"
+    }
+  ]
+}

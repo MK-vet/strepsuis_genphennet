@@ -1,0 +1,15 @@
+{
+  "generated": "2026-01-29T01:29:02.922110",
+  "n_strains": 200,
+  "n_features": 50,
+  "checks": [
+    "OK Row count: 200",
+    "OK Column count: 51",
+    "OK Data is binary"
+  ],
+  "warnings": [
+    "WARN Only 2/5 associations clearly detectable"
+  ],
+  "errors": [],
+  "validation_passed": true
+}

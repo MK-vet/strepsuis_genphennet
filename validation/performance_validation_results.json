@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-01-31T10:30:00.452963",
+  "benchmarks": [
+    {
+      "name": "Network Construction (f=10)",
+      "operation": "network_construction",
+      "data_size": "45 pairs",
+      "time_ms": 89.84,
+      "throughput": "501 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Network Construction (f=20)",
+      "operation": "network_construction",
+      "data_size": "190 pairs",
+      "time_ms": 892.2,
+      "throughput": "213 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Network Construction (f=50)",
+      "operation": "network_construction",
+      "data_size": "1225 pairs",
+      "time_ms": 2731.08,
+      "throughput": "449 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Degree Centrality (f=20)",
+      "operation": "degree_centrality",
+      "data_size": "20 nodes",
+      "time_ms": 729.81,
+      "throughput": "27 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Degree Centrality (f=50)",
+      "operation": "degree_centrality",
+      "data_size": "50 nodes",
+      "time_ms": 6954.71,
+      "throughput": "7 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Degree Centrality (f=100)",
+      "operation": "degree_centrality",
+      "data_size": "100 nodes",
+      "time_ms": 18795.13,
+      "throughput": "5 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Community Detection (f=20)",
+      "operation": "community_detection",
+      "data_size": "20 nodes",
+      "time_ms": 1.55,
+      "throughput": "12876 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Community Detection (f=50)",
+      "operation": "community_detection",
+      "data_size": "50 nodes",
+      "time_ms": 0.26,
+      "throughput": "195848 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Community Detection (f=100)",
+      "operation": "community_detection",
+      "data_size": "100 nodes",
+      "time_ms": 0.68,
+      "throughput": "146177 nodes/s",
+      "memory_mb": null
+    },
+    {
+      "name": "FDR Correction (n=100)",
+      "operation": "fdr_correction",
+      "data_size": "100 tests",
+      "time_ms": 0.06,
+      "throughput": "1697793 tests/s",
+      "memory_mb": null
+    },
+    {
+      "name": "FDR Correction (n=500)",
+      "operation": "fdr_correction",
+      "data_size": "500 tests",
+      "time_ms": 0.03,
+      "throughput": "15015006 tests/s",
+      "memory_mb": null
+    },
+    {
+      "name": "FDR Correction (n=1000)",
+      "operation": "fdr_correction",
+      "data_size": "1000 tests",
+      "time_ms": 0.04,
+      "throughput": "26666671 tests/s",
+      "memory_mb": null
+    },
+    {
+      "name": "FDR Correction (n=5000)",
+      "operation": "fdr_correction",
+      "data_size": "5000 tests",
+      "time_ms": 0.26,
+      "throughput": "18875049 tests/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Mutual Information (n=50)",
+      "operation": "mutual_information",
+      "data_size": "190 pairs",
+      "time_ms": 69.75,
+      "throughput": "2724 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Mutual Information (n=100)",
+      "operation": "mutual_information",
+      "data_size": "190 pairs",
+      "time_ms": 73.97,
+      "throughput": "2569 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Mutual Information (n=200)",
+      "operation": "mutual_information",
+      "data_size": "190 pairs",
+      "time_ms": 70.19,
+      "throughput": "2707 pairs/s",
+      "memory_mb": null
+    },
+    {
+      "name": "Mutual Information (n=500)",
+      "operation": "mutual_information",
+      "data_size": "190 pairs",
+      "time_ms": 77.86,
+      "throughput": "2440 pairs/s",
+      "memory_mb": null
+    }
+  ],
+  "scalability_tests": [
+    {
+      "operation": "Network Construction",
+      "sizes": [
+        10,
+        20,
+        50
+      ],
+      "times_ms": [
+        89.84,
+        892.2,
+        2731.08
+      ]
+    },
+    {
+      "operation": "Degree Centrality",
+      "sizes": [
+        20,
+        50,
+        100
+      ],
+      "times_ms": [
+        729.81,
+        6954.71,
+        18795.13
+      ]
+    },
+    {
+      "operation": "Community Detection",
+      "sizes": [
+        20,
+        50,
+        100
+      ],
+      "times_ms": [
+        1.55,
+        0.26,
+        0.68
+      ]
+    },
+    {
+      "operation": "FDR Correction",
+      "sizes": [
+        100,
+        500,
+        1000,
+        5000
+      ],
+      "times_ms": [
+        0.06,
+        0.03,
+        0.04,
+        0.26
+      ]
+    },
+    {
+      "operation": "Mutual Information",
+      "sizes": [
+        50,
+        100,
+        200,
+        500
+      ],
+      "times_ms": [
+        69.75,
+        73.97,
+        70.19,
+        77.86
+      ]
+    }
+  ]
+}

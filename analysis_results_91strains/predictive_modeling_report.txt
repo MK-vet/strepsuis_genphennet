@@ -1,0 +1,110 @@
+================================================================================
+GENOTYPE-TO-PHENOTYPE PREDICTION REPORT
+================================================================================
+
+Phenotypes analyzed: 5
+
+--------------------------------------------------------------------------------
+
+Phenotype: Doxycycline
+----------------------------------------
+Best Model: Logistic Regression
+  ROC-AUC: 0.9370
+  Accuracy: 0.8788
+  F1-Score: 0.9200
+
+Top Predictive Genes:
+  tet(W): 1.8639
+  tet(O): 1.6840
+   Sbp2: 0.9439
+   Tran: 0.8910
+  spw: 0.7967
+  ant(6)-Ia: 0.7668
+   Fhb_1: 0.7375
+   Sbp1: 0.7076
+   sly: 0.6572
+  tet(M): 0.6005
+
+
+Phenotype: Oxytetracycline
+----------------------------------------
+Best Model: Random Forest
+  ROC-AUC: 0.9675
+  Accuracy: 0.9091
+  F1-Score: 0.9412
+
+Top Predictive Genes:
+  tet(O): 0.1045
+  ant(6)-Ia: 0.0601
+  erm(B): 0.0601
+  tet(W): 0.0592
+   Sbp2: 0.0475
+  tet(M): 0.0364
+   Cps9E: 0.0319
+   atl_2: 0.0314
+   MRP: 0.0297
+   SP1: 0.0295
+
+
+Phenotype: Spectinomycin
+----------------------------------------
+Best Model: Random Forest
+  ROC-AUC: 0.9318
+  Accuracy: 0.8182
+  F1-Score: 0.6667
+
+Top Predictive Genes:
+  tet(W): 0.1103
+   Sbp2: 0.0686
+   TraG: 0.0669
+   atl_2: 0.0553
+  spw: 0.0538
+  lnu(B): 0.0451
+  lsa(E): 0.0438
+  aad9: 0.0405
+   SP1: 0.0398
+  ant(6)-Ia: 0.0389
+
+
+Phenotype: Tiamulin
+----------------------------------------
+Best Model: Random Forest
+  ROC-AUC: 0.9228
+  Accuracy: 0.8788
+  F1-Score: 0.6000
+
+Top Predictive Genes:
+  lnu(B): 0.1610
+  lsa(E): 0.1194
+  spw: 0.0544
+  ant(6)-Ia: 0.0534
+   Sbp1: 0.0329
+   Fhb_1: 0.0323
+  tet(O): 0.0322
+   atl_2: 0.0272
+   Ssads: 0.0231
+   Cps9E: 0.0230
+
+
+Phenotype: Tulathromycin
+----------------------------------------
+Best Model: Logistic Regression
+  ROC-AUC: 0.9248
+  Accuracy: 0.8485
+  F1-Score: 0.8718
+
+Top Predictive Genes:
+  erm(B): 2.8798
+  tet(W): 0.9955
+   SP1: 0.7208
+  MGE_IS1562: 0.5512
+   Cps9E: 0.5110
+   atl_2: 0.4962
+   cps2L: 0.4538
+   Cps2E: 0.4538
+   Tran: 0.4402
+  Plasmid_repUS43: 0.4048
+
+================================================================================
+Report generated: 2026-01-19 22:06:10.769909
+================================================================================
