@@ -32,6 +32,12 @@ import types
 from .analyzer import NetworkAnalyzer
 from .config import Config
 
+# High-performance data backend (Parquet + DuckDB)
+from .data_backend import DataBackend, load_data_efficient, get_backend_status
+
+# Uncertainty quantification (Bootstrap CI + Permutation tests)
+from .uncertainty import UncertaintyQuantifier, apply_default_uncertainty
+
 # Provide a lightweight stub to satisfy legacy test patches
 mdr_analysis_core = types.SimpleNamespace(
     setup_environment=lambda *args, **kwargs: None,
@@ -51,7 +57,16 @@ try:
 except ImportError:
     _HAS_ADVANCED_STATS = False
 
-__all__ = ["NetworkAnalyzer", "Config", "__version__"]
+__all__ = [
+    "NetworkAnalyzer",
+    "Config",
+    "DataBackend",
+    "load_data_efficient",
+    "get_backend_status",
+    "UncertaintyQuantifier",
+    "apply_default_uncertainty",
+    "__version__"
+]
 
 # Add advanced statistics if available
 if _HAS_ADVANCED_STATS:
