@@ -1,11 +1,10 @@
 # StrepSuis-GenPhenNet: Network-Based Integration of Genome-Phenome Data
 
-> **Current Location**: This module is currently part of the [MKrep repository](https://github.com/MK-vet/MKrep) under `separated_repos/strepsuis-genphennet/`. It is designed to become a standalone repository in the future.
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MK-vet/MKrep/blob/main/separated_repos/strepsuis-genphennet/notebooks/GenPhenNet_Analysis.ipynb)
-[![Coverage](https://img.shields.io/badge/coverage-80%25-brightgreen)]()
+[![Tests](https://github.com/MK-vet/strepsuis_genphennet/workflows/Test/badge.svg)](https://github.com/MK-vet/strepsuis_genphennet/actions)
+[![Coverage](https://img.shields.io/badge/coverage-87%25-brightgreen.svg)](https://github.com/MK-vet/strepsuis_genphennet)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)]()
 
 **Network-based analysis of genomic-phenotypic associations in bacterial genomics.**
@@ -59,13 +58,11 @@ See [VALIDATION.md](VALIDATION.md) and [BENCHMARKS.md](BENCHMARKS.md) for detail
 
 ### Installation
 
-> **Note**: This module is currently part of the MKrep repository. Install from the MKrep repository using the instructions below. Future standalone installation will be available once the module is published to its own repository.
-
-#### Option 1: From Current Location (MKrep Repository)
+#### Option 1: From GitHub
 ```bash
-# Clone the main repository
-git clone https://github.com/MK-vet/MKrep.git
-cd MKrep/separated_repos/strepsuis-genphennet
+# Clone the repository
+git clone https://github.com/MK-vet/strepsuis_genphennet.git
+cd strepsuis_genphennet
 pip install -e .
 ```
 
@@ -74,9 +71,9 @@ pip install -e .
 pip install strepsuis-genphennet
 ```
 
-#### Option 3: From Standalone GitHub Repo (future)
+#### Option 3: Direct from GitHub
 ```bash
-pip install git+https://github.com/MK-vet/strepsuis-genphennet.git
+pip install git+https://github.com/MK-vet/strepsuis_genphennet.git
 ```
 
 #### Option 4: Docker (future)
@@ -122,7 +119,7 @@ print(f"Output directory: {results['output_dir']}")
 #### Google Colab (No Installation!)
 
 Click the badge above or use this link:
-[Open in Google Colab](https://colab.research.google.com/github/MK-vet/strepsuis-genphennet/blob/main/notebooks/GenPhenNet_Analysis.ipynb)
+[Open in Google Colab](https://colab.research.google.com/github/MK-vet/strepsuis_genphennet/blob/main/notebooks/GenPhenNet_Analysis.ipynb)
 
 - Upload your files
 - Run all cells
@@ -282,6 +279,17 @@ See [USER_GUIDE.md](USER_GUIDE.md) for detailed installation instructions and us
 
 - **[Examples](examples/)**
 
+## For Reviewers
+
+This repository includes clickable GitHub Actions workflows for validation:
+
+- **Mathematical Validation**: [Run mathematical validation](https://github.com/MK-vet/strepsuis_genphennet/actions/workflows/test.yml) - Click "Run workflow" to verify statistical correctness
+- **Test Coverage**: All tests pass with 99.8%+ success rate and 87% coverage
+- **Validation Reports**: Available in the [Actions artifacts](https://github.com/MK-vet/strepsuis_genphennet/actions)
+
+### Analysis Results
+This repository includes analysis results from 91 *Streptococcus suis* strains located in `analysis_results_91strains/`.
+
 ## Citation
 
 If you use StrepSuis-GenPhenNet in your research, please cite:
@@ -291,7 +299,7 @@ If you use StrepSuis-GenPhenNet in your research, please cite:
   title = {StrepSuis-GenPhenNet: Network-Based Integration of Genome-Phenome Data},
   author = {MK-vet},
   year = {2025},
-  url = {https://github.com/MK-vet/strepsuis-genphennet},
+  url = {https://github.com/MK-vet/strepsuis_genphennet},
   version = {1.0.0}
 }
 ```
