@@ -101,3 +101,7 @@ data/*
 !analysis_results/README.md
 !test_reports/README.md
 !assets/README.md
+.data_cache/
+
+# Test reports (auto-generated)
+tests/reports/
